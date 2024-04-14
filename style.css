@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+
+.apply_box {
+    max-width: 600px;
+    padding:  25px;
+    background-color: yellowgreen;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 50px;
+}
+
+.tittle_small {
+    font-size: 20px;
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px
+}
+button{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button_container {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    color: yellowgreen;
+}
+
+img{
+    margin: auto;
+    padding: 0%;
+    width: 800px;
+}
